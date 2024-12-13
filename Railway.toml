@@ -1,0 +1,3 @@
+[[build]]
+command = "python app.py"
+environment = ["PORT=5000"]  
