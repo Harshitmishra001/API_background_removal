@@ -7,4 +7,4 @@ commands = [
 ]
 
 [[start]]
-command = "python app.py"  # Adjust this if your main file has a different name
+command = ["python app.py"]  # Adjust this if your main file has a different name
