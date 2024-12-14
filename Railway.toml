@@ -1,10 +1,9 @@
-[[build]]
-base = "python:3.9"  # Replace with your Python version
+[build]
+base = "python"
+builder = "nixpacks"
 commands = [
-    "python -m venv /opt/venv",  # Create virtual environment
-    ". /opt/venv/bin/activate", # Activate virtual environment
-    "pip install -r requirements.txt" # Install dependencies
+    "pip install -r requirements.txt"
 ]
 
-[[start]]
-command = ["python app.py"]  # Adjust this if your main file has a different name
+[start]
+command = "python app.py"
